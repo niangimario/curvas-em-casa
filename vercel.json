@@ -4,8 +4,5 @@
       "NITRO_PRESET": "vercel"
     }
   },
-  "rewrites": [
-    { "source": "/", "destination": "/dist/client/index.html" },
-    { "source": "/*", "destination": "/dist/client/:splat" }
-  ]
+  "rewrites": []
 }
